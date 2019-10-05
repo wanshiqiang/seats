@@ -12,7 +12,10 @@
       <Seat  name="姓名9" v-bind:score="12" seatLeft="320px" seatTop="160px"></Seat>
       <Seat  name="姓名10" v-bind:score="12" seatLeft="480px" seatTop="160px"></Seat>
       <Seat  name="姓名11" v-bind:score="12" seatLeft="640px" seatTop="160px"></Seat>
+      <Seat  name="姓名25" v-bind:score="12" seatLeft="640px" seatTop="640px"></Seat>
+      <Seat  name="姓名36" v-bind:score="12" seatLeft="800px" seatTop="800px"></Seat>
   </div>
+  
 </template>
   
 
@@ -35,13 +38,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 div#room{
-    width: 80%;
-    height: 80%;
+    width: 1000px;
+    height: 1000px;
     border:1px dashed red;
 
     position: relative;
-    top: 50px;
-    left: 300px;
+    /* top: 50px;
+    left: 100px; */
+    margin: 0 auto;
 }
 
 
